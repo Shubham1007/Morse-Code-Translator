@@ -16,3 +16,13 @@ Morse code is a method of transmitting text information as a series of on-off to
 
 # Decryption:
  
+1) In case of decryption, i start by adding a space at the end of the string to be decoded (this will be explained later).
+</br>
+2) Now i keep extracting characters from the string till i are not getting any space.
+</br>
+3) As soon as i get a space i look up the corresponding English language character to the extracted sequence of characters (or our morse code) and add it to a variable which will store the result.
+</br>
+4) Remember keeping track of the space is the most important part of this decryption process. As soon as i get 2 consecutive spaces i will add another space to our variable containing the decoded string.
+</br>
+5) The last space at the end of the string will help us identify the last sequence of morse code characters (since a space acts as a check for extracting characters and start decoding them).
+</br>
