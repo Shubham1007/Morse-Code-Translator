@@ -2,6 +2,7 @@
 Morse code is a method of transmitting text information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer without special equipment.
 
 
+
 # Encryption:
  
 1) In case of encryption i extract each character (if not a space) from a word one at a time and match it with its corresponding morse code stored in whichever data structure i have chosen(if you are coding in python, dictionaries can turn out to be very useful in this case).</br>
